@@ -6,7 +6,7 @@ import java.awt.Frame;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class BorderLayoutTest {
+public class BorderLayoutTest01 {
 	/*
 	BorderLayout은 컨테이너를 North, South, East, West, Center 모두 5개의 영역으로 나눔
 	다만, 각 영역에 컴포넌트는 하나만 배치할 수 있음
@@ -19,7 +19,7 @@ public class BorderLayoutTest {
 	Button jb5 = new Button("남");
 	Button jb6 = new Button("버튼6");
 	
-	public BorderLayoutTest() {
+	public BorderLayoutTest01() {
 		// Frame을 BorderLayout으로 설정
 		f.setLayout(new BorderLayout());
 		f.add(jb1, BorderLayout.NORTH);
@@ -43,7 +43,7 @@ public class BorderLayoutTest {
 
 	public static void main(String[] args) {
 
-		new BorderLayoutTest();
+		new BorderLayoutTest01();
 		
 
 	}

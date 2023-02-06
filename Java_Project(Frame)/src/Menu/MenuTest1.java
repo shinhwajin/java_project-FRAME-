@@ -43,6 +43,9 @@ public class MenuTest1 {
 
 		f.setMenuBar(mb);
 		f.setVisible(true);
+		
+		printSetup.addActionListener(new MyMenu());
+		miClose.addActionListener(new MyMenu());
 
 		f.addWindowListener(new WindowAdapter() {
 			@Override
